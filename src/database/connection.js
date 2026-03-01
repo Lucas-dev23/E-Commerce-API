@@ -1,11 +1,8 @@
-import pkg from 'pg'
+import { Pool } from 'pg'
 import dotenv from 'dotenv'
 
 // Carrega variáveis de ambiente do arquivo .env para process.env
 dotenv.config()
-
-// Extraindo apenas o que é necessário Pool
-const { Pool } = pkg
 
 /*
   Pool de conexões:
