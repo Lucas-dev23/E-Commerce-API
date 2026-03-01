@@ -1,6 +1,7 @@
-import app from "./src/app.js"
+import app from "./app.js"
+import dotenv from 'dotenv'
 
-const PORT = 3000;
+const PORT = process.env.PORT;
 
 // Subir servidor
 app.listen(PORT, () => {
