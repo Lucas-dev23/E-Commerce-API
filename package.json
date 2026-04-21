@@ -1,7 +1,11 @@
 {
   "name": "ecommerce-api",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "Projeto que simula uma loja virtual",
+=======
+  "description": "",
+>>>>>>> 25f7014247207badd553c26d1494ebd95e52c834
   "type": "module",
   "main": "src/server.js",
   "scripts": {
@@ -16,10 +20,18 @@
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
+<<<<<<< HEAD
     "pg": "^8.18.0",
     "zod": "^4.3.6"
+=======
+    "pg": "^8.18.0"
+>>>>>>> 25f7014247207badd553c26d1494ebd95e52c834
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 25f7014247207badd553c26d1494ebd95e52c834

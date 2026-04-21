@@ -22,14 +22,15 @@ camadas (Controller, Service e Repository).
     └── ecommerce_schema.sql
 
     src/
-    ├── configs/
     ├── controllers/
     ├── database/
     ├── middlewares/
     ├── models/
     ├── routes/
+    ├── security/
     ├── services/
     ├── utils/
+    ├── validations/
     ├── app.js
     └── server.js
 
@@ -153,14 +154,8 @@ O projeto segue arquitetura em camadas:
 
 ### Próximos passos:
 
--   Implementar autenticação com JWT\
--   CRUD completo de usuários\
 -   CRUD completo de produtos\
--   CRUD completo de categorias\
 -   Upload de fotos dos produtos
--   Middleware de autenticação\
--   Validações de entrada\
--   Tratamento global de erros
 
 ------------------------------------------------------------------------
 
